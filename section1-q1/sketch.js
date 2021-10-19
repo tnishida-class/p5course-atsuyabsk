@@ -1,6 +1,6 @@
 // 練習問題：神戸市のマーク
 function setup(){
-  createCanvas(200, 200);
+  createCanvas(400, 200);
   background(255);
 
   // 空欄を埋めて神戸市のロゴマークを完成させよう
@@ -16,4 +16,10 @@ function setup(){
   const blue = color(14, 47, 146);
   const green = color(22, 131, 46);
   const gray = color(77);
+
+  fill(blue);
+  noStroke();
+  ellipse(300, 100, 100, 100);
+  fill(255);
+  ellipse(293, 93, 82, 82);
 }
