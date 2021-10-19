@@ -22,4 +22,5 @@ function setup(){
   ellipse(300, 100, 100, 100);
   fill(255);
   ellipse(293, 93, 82, 82);
+  fill(green);
 }
