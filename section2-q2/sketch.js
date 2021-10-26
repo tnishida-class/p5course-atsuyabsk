@@ -16,14 +16,14 @@ function setup() {
 
       if(j < 3 && (i + j) % 2 == 1){
         fill(255, 0, 0);
+        noStroke();
+        ellipse(size * i + size / 2, size * j + size / 2, size * 0.8);
       }
-      else if (j < 5) {
-        noFill();
-      }
-      else if ((i + j) % 2 == 1){
+      else if (j > 4 && (i + j) % 2 == 1) {
         fill(0, 0, 0);
+        noStroke();
+        ellipse(size * i + size / 2, size * j + size / 2, size * 0.8);
       }
-      circle(size *(i + 1 / 2), size * (j + 1 / 2), size * 4 / 5);
     }
   }
 }
